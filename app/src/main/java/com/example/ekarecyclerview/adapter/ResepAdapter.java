@@ -63,7 +63,7 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ViewHolder> 
             super(itemView);
             imageView = itemView.findViewById(R.id.item_resep_img);
             textView = itemView.findViewById(R.id.item_resep_title);
-            descView = itemView.findViewById(R.id.item_resep_desc);
+
         }
     }
 }

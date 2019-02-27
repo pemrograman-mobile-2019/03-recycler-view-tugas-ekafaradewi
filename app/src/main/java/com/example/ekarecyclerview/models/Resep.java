@@ -4,21 +4,21 @@ public class Resep {
 
     private String id;
     private String title;
-    private String desc;
+
     private String img;
     private int img_local;
 
     public Resep(String id, String title, String desc, String img) {
         this.id = id;
         this.title = title;
-        this.desc = desc;
+
         this.img = img;
     }
 
     public Resep(String id, String title, String desc, int img_local) {
         this.id = id;
         this.title = title;
-        this.desc = desc;
+
         this.img_local = img_local;
     }
 
@@ -62,12 +62,5 @@ public class Resep {
         this.img_local = img_local;
     }
 
-    public String getDesc() {
-        return desc;
-    }
 
-    public void setDesc(String desc) {
-
-        this.desc = desc;
-    }
 }
