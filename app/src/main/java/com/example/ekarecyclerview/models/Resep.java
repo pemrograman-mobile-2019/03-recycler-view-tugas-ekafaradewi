@@ -62,5 +62,12 @@ public class Resep {
         this.img_local = img_local;
     }
 
+    public String getDesc() {
+        return desc;
+    }
 
+    public void setDesc(String desc) {
+
+        this.desc = desc;
+    }
 }
